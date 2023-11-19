@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--
+    Created on : 16 Oct 2023, 13:36:05
+    Author     : david
+-->
+<html>
+    <head>
+        <title>G C W </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/face.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="wrapper" >
+          <!--header-->
+    <header id="site-header" class="fixed-top" >
+        
+      <div class="container">
+       <nav class="navbar navbar-expand-lg ">
+           <ul>
+               <li>
+                 <h1>
+                   <a class="navbar-brand " href="index.html">
+                       <span class="sub-log" style="color: black"> <u>G<em style="color: red">C</em>W</span></u>
+                   </a>
+                     <a style="font-size: 13pt;"><em>BRICKS</em> <em style="color: red">&</em> <em>PAVERS</em></a>
+                 </h1>
+                   <a style="font-size: 10pt;"><strong><em style="color: darkgray">"Bricks and Pavers that last a life time"</em></strong></a>
+               </li>
+            </ul>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-lg-auto">
+               <li class="nav-item active">
+                <a class="nav-link" href="index.html" style="color: black">Home <span class="sr-only">(current)</span></a>             
+               </li>        
+               <li class=" ml-lg-4 mt-lg-0 mt-3">
+                <a href="quote.html" class="btn btn-style btn-primary">Get a Quote</a>
+               </li>
+           </ul>
+          </div>
+           
+         </nav>
+        </div>
+    </header><br>
+  <!-- header --> 
+  
+    <!--/grids-->
+  <section class="w3l-grids-3 py-5 wrapper" id="about" >
+    <div class="container py-md-5 py-3">
+      <div class="row align-items-center">
+
+     
+      </div>
+       <div style="width: 960px; margin: 10px; padding: 80px;">
+           
+           <h3 style="font-size: 26pt;color: black;"> Bricks</h3>
+           <br><br>
+            <p style="color: black; font-size: 18pt">We provide<span style="color: red;"> Standard</span>, <span style="color: red;">Load Bearing</span> and <span style="color: red;">Colored</span> Bricks </p>
+            <br><br>
+                          
+            <h3> Standard Bricks Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="sBrics" placeholder="Enter Number of Bricks">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculateBric(document.getElementById('sBrics').value)">Calculate Price of Bricks</button>
+            <script>
+                  function calculateBric (price) {
+                  var sbricRate = 0.14;
+                  var sbricAmount = price * sbricRate;
+                  document.getElementById('sbric').innerHTML = "Price of Bricks is: $" + Math.round((sbricAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="sbric" style="color: red;"></p><br><br><br>
+                        
+                  <div>
+                      <h3> Load Bearing Bricks Price Calculator </h3>
+                      <br>
+                      <br>
+                     <input type="number" id="lBrics" placeholder="Enter Number of Bricks">
+                     <button type="button" class="btn btn-style btn-primary" onclick="calculatelBric(document.getElementById('lBrics').value)">Calculate Price of Bricks</button>
+            <script>
+                  function calculatelBric (price) {
+                  var lbricRate = 0.16;
+                  var lbricAmount = price * lbricRate;
+                  document.getElementById('lbric').innerHTML = "Price of Bricks is: $" + Math.round((lbricAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+                 <br>
+                   <p id="lbric" style="color: red;"></p>
+                    <br><br><br>
+                          
+            <h3> Colored Bricks Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="cBrics" placeholder="Enter Number of Bricks">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculatecBric(document.getElementById('cBrics').value)">Calculate Price of Bricks</button>
+            <script>
+                  function calculatecBric (price) {
+                  var cbricRate = 0.20;
+                  var cbricAmount = price * cbricRate;
+                  document.getElementById('cbric').innerHTML = "Price of Bricks is: $" + Math.round((cbricAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="cbric" style="color: red;"></p><br><br>
+            <br>
+                      <a href="images/bric2.jpg" data-lightbox="mygallary">
+                          <img src="images/bric2.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric1.jpg" data-lightbox="mygallary">
+                          <img src="images/bric1.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric3.jpg" data-lightbox="mygallary">
+                          <img src="images/bric3.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric7.jpg" data-lightbox="mygallary">
+                          <img src="images/bric7.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a> 
+                      <a href="images/bric5.jpg" data-lightbox="mygallary">
+                          <img src="images/bric5.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric6.jpg" data-lightbox="mygallary">
+                          <img src="images/bric6.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric8.jpg" data-lightbox="mygallary">
+                          <img src="images/bric8.jpg" alt="Bricks in Zimbabwe" width="180"/>
+                      </a>
+                      <a href="images/bric.jpg" data-lightbox="mygallary">
+                          <img src="images/bric.jpg" alt="Bricks in Zimbabwe" width="200"/>
+                      </a>
+                  </div><br><br><br>
+            
+            
+            <h3 style="font-size: 26pt;color: black;"> Pavers</h3>
+           <br>
+           <br>
+            <p style="color: black; font-size: 18pt">We provide <span style='color: red;'>Holland & Interlocking Pavers</span> in Plain,Black and Red </p>
+            <br><br>
+                          
+            <h3>  Plain Holland Pavers Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="pPavers" placeholder="Enter Number of Pavers">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculatePaver(document.getElementById('pPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculatePaver (price) {
+                  var paverRate = 0.14;
+                  var paverAmount = price * paverRate;
+                  document.getElementById('pPaver').innerHTML = "Price of Bricks is: $" + Math.round((paverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="pPaver" style="color: red;"></p><br><br><br>
+                        
+        <div>
+                      <h3> Black Holland Pavers Price Calculator </h3>
+                      <br>
+                      <br>
+                     <input type="number" id="bPavers" placeholder="Enter Number of Pavers">
+                     <button type="button" class="btn btn-style btn-primary" onclick="calculatelBpaver(document.getElementById('bPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculatelBpaver (price) {
+                  var bPaverRate = 0.16;
+                  var bPaverAmount = price * bPaverRate;
+                  document.getElementById('bPaver').innerHTML = "Price of Bricks is: $" + Math.round((bPaverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+                 <br>
+                   <p id="bPaver" style="color: red;"></p>
+                    <br><br><br>
+                          
+            <h3> Red Holland Pavers Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="rPavers" placeholder="Enter Number of Pavers">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculateRpaver(document.getElementById('rPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculateRpaver (price) {
+                  var rPaverRate = 0.16;
+                  var rPaverAmount = price * rPaverRate;
+                  document.getElementById('rPaver').innerHTML = "Price of Bricks is: $" + Math.round((rPaverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="rPaver" style="color: red;"></p><br>
+            <br>
+            <br>
+        </div>
+            <br>
+                          
+            <h3>  Plain Interlocking Pavers Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="iPavers" placeholder="Enter Number of Pavers">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculateIpaver(document.getElementById('iPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculateIpaver (price) {
+                  var ipaverRate = 0.15;
+                  var ipaverAmount = price * ipaverRate;
+                  document.getElementById('iPaver').innerHTML = "Price of Bricks is: $" + Math.round((ipaverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="iPaver" style="color: red;"></p><br>
+            <br>
+            <br>
+                        
+                  <div>
+                      <h3> Black Interlocking Pavers Price Calculator </h3>
+                      <br>
+                      <br>
+                     <input type="number" id="biPavers" placeholder="Enter Number of Pavers">
+                     <button type="button" class="btn btn-style btn-primary" onclick="calculateBipaver(document.getElementById('biPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculateBipaver (price) {
+                  var biPaverRate = 0.17;
+                  var biPaverAmount = price * biPaverRate;
+                  document.getElementById('biPaver').innerHTML = "Price of Bricks is: $" + Math.round((biPaverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+                 <br>
+                   <p id="biPaver" style="color: red;"></p>
+                    <br><br><br>
+                          
+            <h3> Red Interlocking Pavers Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="riPavers" placeholder="Enter Number of Pavers">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculateRipaver(document.getElementById('riPavers').value)">Calculate Price of Pavers</button>
+            <script>
+                  function calculateRipaver (price) {
+                  var riPaverRate = 0.17;
+                  var riPaverAmount = price * riPaverRate;
+                  document.getElementById('riPaver').innerHTML = "Price of Bricks is: $" + Math.round((riPaverAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="riPaver" style="color: red;"></p><br><br>
+            <br>
+            
+          </div>
+            <h3> Air Vents Price Calculator </h3>
+            <br>
+              <br>
+              <input type="number" id="aVents" placeholder="Enter Number of Vents">
+              <button type="button" class="btn btn-style btn-primary" onclick="calculateVent(document.getElementById('aVent').value)">Calculate Price of Air Vents</button>
+            <script>
+                  function calculateVent (price) {
+                  var ventRate = 0.50;
+                  var ventAmount = price * ventRate;
+                  document.getElementById('vVent').innerHTML = "Price of Bricks is: $" + Math.round((ventAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+            <br>
+            <p id="vVent" style="color: red;"></p><br>
+            <br>
+            <br>
+                        
+            <div>
+                      <h3> Window Sill Price Calculator </h3>
+                      <br>
+                      <br>
+                     <input type="number" id="wSill" placeholder="Enter Number of Pavers">
+                     <button type="button" class="btn btn-style btn-primary" onclick="calculatelWsill(document.getElementById('wSill').value)">Calculate Price of Window Sills</button>
+            <script>
+                  function calculatelWsill (price) {
+                  var wSillRate = 0.16;
+                  var wSillAmount = price * wSillRate;
+                  document.getElementById('wsill').innerHTML = "Price of Bricks is: $" + Math.round((wSillAmount + Number.EPSILON) * 100) / 100;
+              }
+            </script>
+                 <br>
+                   <p id="wsill" style="color: red;"></p>
+                    <br><br><br>
+                          
+        </div></div>
+    </div>
+  
+  </section>
+  <!--//grids-->
+  
+
+
+  
+
+<footer class="w3l-footer-29-main w3l-copyright" style="background-color: black;">
+    <div class="container">
+      <div class="bottom-copies">
+        <p class="copy-footer-29 text-center">© 2023 . All rights reserved. Design by David Makate </p>
+      </div>
+    </div>
+    </footer>
+    <!-- Template JavaScript -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+
+  <script src="js/theme-change.js"></script>
+
+  <!-- js for portfolio lightbox -->
+  <!-- libhtbox -->
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <!-- libhtbox -->
+  <script src="js/owl.carousel.js"></script>
+  <!-- script for banner slider-->
+  <script>
+    $(document).ready(function () {
+      $('.owl-one').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          667: {
+            items: 1,
+            nav: true
+          },
+          1000: {
+            items: 1,
+            nav: true
+          }
+        }
+      });
+    });
+  </script>
+  <!-- //script -->
+<!-- stats number counter-->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.countup.js"></script>
+<script>
+  $('.counter').countUp();
+</script>
+<!-- //stats number counter -->
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      });
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+  <!--//MENU-JS-->
+
+  <script src="js/bootstrap.min.js"></script>
+
+          
+    </body>
+</html>
